@@ -42,7 +42,7 @@ python GraPhage_ice.py phage_genomes.fasta phage_gff_dic --out output.txt --batc
 
 For example:
 ```shell
-python GraPhage_ice.py ../example_data/merge.fasta ../example_data/gff_data
+python GraPhage_ice.py ../example_data/example.fasta ../example_data/gff_data
 ```
 
 There are two columns in the output, with the first showing the sequence id and the second showing the predicted type.
@@ -66,7 +66,7 @@ ad 10
 
 For example:
 ```shell
-python GraPhage_int.py ../example_data/merge.fasta phage
+python GraPhage_int.py ../example_data/example.fasta phage
 ```
 There are three columns in the output, with the first showing the sequence id, the second showing the location on the sequence, and the third showing the prediction (0 for non-integration-site and 1 for integration-site).
 
@@ -87,7 +87,7 @@ python GraPhage_lifestyle.py phage_genomes.fasta --out output.txt --batch 100 --
 
 For example:
 ```shell
-python GraPhage_lifestyle.py ../example_data/merge.fasta
+python GraPhage_lifestyle.py ../example_data/example.fasta
 ```
 
 There are two columns in the output, with the first showing the sequence id and the second showing the predicted lifestyle.
@@ -108,7 +108,7 @@ python GraPhage_host.py phage_genomes.fasta --out output.txt --batch 100 --threa
 
 For example:
 ```shell
-python GraPhage_host.py ../example_data/merge.fasta 
+python GraPhage_host.py ../example_data/example.fasta 
 ```
 
 There are two columns in the output, with the first showing the sequence id and the second showing the predicted host.
