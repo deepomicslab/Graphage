@@ -20,7 +20,7 @@ For phage lifestyle prediction task, please also install Glimmer and Hmmer.
 ## Install
 ```shell
 git clone https://github.com/deepomicslab/GraPhage.git
-cd GraPhage/script
+cd GraPhage/scripts
 python setup.py build_ext --inplace
 ```
 Please download the model dictionary from <https://drive.google.com/drive/folders/14dXP6VW7d8zNNlHp0Qf_ZbYXvj9qS_Iu?usp=sharing> and put it under the scripts dictionary. 
