@@ -1,5 +1,5 @@
 # GraPhage
-GraPhage, a phage analysis tool that integrates phage and ICE discrimination, phage integration site prediction, phage lifestyle prediction, and phage host prediction. GraPhage utilizes a Graph Convolutional Network (GCN) framework for phage representation learning. The GCN framework is available for various sequence analysis at <https://github.com/deepomicslab/GNNFrame.git>.
+GraPhage, a phage analysis tool that integrates phage and ICE discrimination, phage integration site prediction, phage lifestyle prediction, and phage host prediction. GraPhage utilizes a Graph Convolutional Network (GCN) framework for phage representation learning. The GCN framework is available for various sequence analysis at <https://github.com/deepomicslab/GNNFrame>.
 
 ![image](https://github.com/deepomicslab/GraPhage/blob/main/GraPhage.png)
 
