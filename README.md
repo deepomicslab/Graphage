@@ -1,5 +1,5 @@
 # GraphPhage
-GraphPhage, a phage analysis tool that incorporates phage and ICE discrimination, phage integration site prediction, phage lifestyle prediction, and phage host prediction. GraphPhage utilizes a Gapped Pattern Graph Convolutional Network (GP-GCN) framework for phage representation learning. The GP-GCN framework is available for various sequence analysis at <https://github.com/deepomicslab/GCNFrame>.
+GraphPhage, a phage analysis tool that incorporates phage and ICE discrimination, phage integration site prediction, phage lifestyle prediction, and phage host prediction. GraphPhage utilizes a Gapped Pattern Graph Convolutional Network (GP-GCN) framework for phage representation learning. The GP-GCN framework is available for various sequence analysis at [Github](https://github.com/deepomicslab/GCNFrame).
 
 ![image](https://github.com/deepomicslab/GraphPhage/blob/main/GraphPhage.png)
 
@@ -23,7 +23,7 @@ git clone https://github.com/deepomicslab/GraphPhage.git
 cd GraphPhage/scripts
 python setup.py build_ext --inplace
 ```
-Please download the model dictionary from <https://drive.google.com/drive/folders/14dXP6VW7d8zNNlHp0Qf_ZbYXvj9qS_Iu?usp=sharing> and put it under the scripts dictionary. 
+Please download the model dictionary from [Google Drive](https://drive.google.com/drive/folders/14dXP6VW7d8zNNlHp0Qf_ZbYXvj9qS_Iu?usp=sharing) and put it under the scripts dictionary. 
 
 ## Data preparation
 For phage integration site prediction, phage lifestyle prediction, and phage host prediction, only fasta file is needed (you can use fasta file with multiple sequences). For phage and ICE discrimination, please provide fasta file and gff file. Please check our example data for details.
