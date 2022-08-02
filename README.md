@@ -23,7 +23,7 @@ git clone https://github.com/deepomicslab/Graphage.git
 cd Graphage/scripts
 python setup.py build_ext --inplace
 ```
-Please download the model dictionary from [Google Drive](https://drive.google.com/drive/folders/14dXP6VW7d8zNNlHp0Qf_ZbYXvj9qS_Iu?usp=sharing) and put it under the scripts dictionary. 
+Please download the model dictionary from [Google Drive](https://drive.google.com/drive/folders/14dXP6VW7d8zNNlHp0Qf_ZbYXvj9qS_Iu?usp=sharing) and put it under the scripts dictionary. We also provide the sequences on the phage and bacterial integration site. Other data used in the manuscript can be obtained from public datasets.
 
 ## Data preparation
 For phage integration site prediction, phage lifestyle prediction, and phage host prediction, only fasta file is needed (you can use fasta file with multiple sequences). For phage and ICE discrimination, please provide fasta file and gff file. Please check our example data for details.
