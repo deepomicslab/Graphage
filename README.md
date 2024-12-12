@@ -121,3 +121,5 @@ python Graphage_host.py -h
 ## Maintainer
 WANG Ruohan ruohawang2-c@my.cityu.edu.hk
 
+### Reference
+Wang, R. H., Ng, Y. K., Zhang, X., Wang, J., & Li, S. C. (2024). Coding genomes with gapped pattern graph convolutional network. Bioinformatics, 40(4), btae188.
